@@ -1,7 +1,9 @@
 <template>
   <v-app>
     <app-header />
+
     <AppContent />
+    <!-- <v-switch v-model="$vuetify.theme.dark" primary label="Dark"></v-switch> -->
   </v-app>
 </template>
 
