@@ -1,18 +1,20 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <app-header />
+
+    <AppContent />
+    <v-switch v-model="$vuetify.theme.dark" primary label="Dark"></v-switch>
+  </v-app>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import AppHeader from "../components/shared/Header.vue";
+import AppContent from "./../components/Content.vue";
 
 export default {
-  name: 'Home',
   components: {
-    HelloWorld
+    AppHeader,
+    AppContent
   }
-}
+};
 </script>
