@@ -3,18 +3,10 @@
     <v-row align="center" justify="center">
       <v-col cols="12">
         <v-card>
-          <v-card-text>
-            <v-row>
-              <v-col cols="12" md="6">
-                <span class="title">Make a Request</span>
-              </v-col>
-            </v-row>
-          </v-card-text>
-          <v-card-actions>
-            <v-spacer></v-spacer>
-            <v-btn text>Cancel</v-btn>
-            <v-btn text color="primary">Submit</v-btn>
-          </v-card-actions>
+          <v-card-title class="green--text">
+            Make a TPI_VerifyPlayerSession Request
+          </v-card-title>
+          <v-card-text class="black--text"> </v-card-text>
         </v-card>
       </v-col>
     </v-row>
@@ -22,5 +14,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: () => {
+    return {
+      json: {}
+    };
+  },
+  components: {},
+  methods: {
+    onError() {
+      console.log("error");
+    }
+  }
+};
 </script>
