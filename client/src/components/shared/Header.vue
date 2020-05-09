@@ -24,9 +24,12 @@
     </v-navigation-drawer>
 
     <v-app-bar :clipped-left="homeLayout.clipped" app>
-      <v-app-bar-nav-icon @click.stop="homeLayout.model = !homeLayout.model">
+      <v-app-bar-nav-icon
+        @click.stop="homeLayout.model = !homeLayout.model"
+        class="blue--text text--lighten-2"
+      >
       </v-app-bar-nav-icon>
-      <v-toolbar-title cols="12">
+      <v-toolbar-title cols="12" class="blue--text">
         RGS Impersonation
       </v-toolbar-title>
     </v-app-bar>
