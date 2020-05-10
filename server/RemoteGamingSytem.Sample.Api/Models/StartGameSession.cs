@@ -21,10 +21,10 @@ namespace RemoteGamingSytem.Sample.Api.Models
     [StringLength(ApplicationConstants.UniqueId)]
     public string GameId { get; set; }
 
-    [Required]
+    [Required]// check 
     public string ChannelType { get; set; }
 
-    [Required]
+    [Required]// check
     public string PresentType { get; set; }
 
     [Required]
@@ -51,7 +51,7 @@ namespace RemoteGamingSytem.Sample.Api.Models
     [StringLength(ApplicationConstants.GameSessionId)]
     public string GameSessionId { get; set; }
 
-    [Required]
+    [Required]// check 
     public string GameType { get; set; }
 
     [Required]

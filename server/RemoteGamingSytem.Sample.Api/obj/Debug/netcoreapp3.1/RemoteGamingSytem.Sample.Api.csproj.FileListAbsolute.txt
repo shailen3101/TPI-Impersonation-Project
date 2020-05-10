@@ -2,7 +2,6 @@ C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\bin\D
 C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\bin\Debug\netcoreapp3.1\appsettings.json
 C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\bin\Debug\netcoreapp3.1\RemoteGamingSytem.Sample.Api.exe
-C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\obj\Debug\netcoreapp3.1\RemoteGamingSytem.Sample.Api.csprojAssemblyReference.cache
 C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\obj\Debug\netcoreapp3.1\staticwebassets\RemoteGamingSytem.Sample.Api.StaticWebAssets.Manifest.cache
 C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\obj\Debug\netcoreapp3.1\staticwebassets\RemoteGamingSytem.Sample.Api.StaticWebAssets.xml
 C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\obj\Debug\netcoreapp3.1\RemoteGamingSytem.Sample.Api.AssemblyInfoInputs.cache
@@ -91,7 +90,4 @@ C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\obj\D
 C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\obj\Debug\netcoreapp3.1\RemoteGamingSytem.Sample.Api.pdb
 C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\bin\Debug\netcoreapp3.1\Jil.dll
 C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\bin\Debug\netcoreapp3.1\Sigil.dll
-C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
-C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\bin\Debug\netcoreapp3.1\System.Web.Http.dll
-C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\dev\repos\TPI-Impersonation-Project\server\RemoteGamingSytem.Sample.Api\obj\Debug\netcoreapp3.1\RemoteGamingSytem.Sample.Api.MvcApplicationPartsAssemblyInfo.cache
