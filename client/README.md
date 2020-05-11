@@ -32,7 +32,7 @@ npm run lint
 
 # Todo
 
-## Method Components
+### Method Components
 
 - [] Create a Reusable form for input for the Request that all Methods Components can use
 - [] Create a Reusable Method Info Component that all Methods can use to detail themselves
