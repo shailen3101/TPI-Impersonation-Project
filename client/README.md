@@ -1,4 +1,4 @@
-# client
+# RGS Impersonation Client
 
 ## Project setup
 
