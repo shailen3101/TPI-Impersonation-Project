@@ -32,6 +32,7 @@ namespace RemoteGamingSystem.Sample.Api.Controllers
     [HttpPost]
     public VerifyPlayerSession Post([FromBody] VerifyPlayerSession request)
     {
+      var hello = 0; 
       return request;
     }
 
