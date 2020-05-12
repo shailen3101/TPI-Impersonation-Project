@@ -6,7 +6,8 @@
           <v-list-item-title>TPI Commands</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
-      <v-divider></v-divider>
+
+      <v-btn color="green">TPI_VerifyPlayerSession</v-btn>
     </v-navigation-drawer>
 
     <v-app-bar :clipped-left="homeLayout.clipped" app>
