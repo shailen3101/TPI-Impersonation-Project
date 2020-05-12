@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NyvUEW5MFmKCkdAwcRkRSveJF1Vh+HTWYoBzo8gj2+Z16wvmYC+lS3ceocgmLvBNjAlQpNEZnh7CGYlTAyID9A==",
+  "dgSpecHash": "5yBHiUiNzcBs7cFAN+ANRW5snExha3Hy9vAVkpIP9zVFN4Q4Nb96GXkQLPk8rFOn58wCSzQQZwXx2TV7n+5t9w==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj",
+  "projectFilePath": "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shanel\\.nuget\\packages\\jil\\2.14.5\\jil.2.14.5.nupkg.sha512",
     "C:\\Users\\shanel\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

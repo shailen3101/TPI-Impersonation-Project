@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj": {}
+    "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj": {
+    "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj",
+        "projectUniqueName": "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj",
         "projectName": "RemoteGamingSystem.Sample.Api",
-        "projectPath": "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj",
+        "projectPath": "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj",
         "packagesPath": "C:\\Users\\shanel\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\obj\\",
+        "outputPath": "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shanel\\AppData\\Roaming\\NuGet\\NuGet.Config",
