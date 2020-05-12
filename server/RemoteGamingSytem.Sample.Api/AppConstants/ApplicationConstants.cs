@@ -1,4 +1,4 @@
-﻿namespace RemoteGamingSytem.Sample.Api.AppConstants
+﻿namespace RemoteGamingSystem.Sample.Api.AppConstants
 {
   public class ApplicationConstants
   {

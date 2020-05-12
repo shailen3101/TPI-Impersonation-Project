@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteGamingSytem.Sample.Api", "RemoteGamingSytem.Sample.Api.csproj", "{F9FD0D8F-051C-404B-BFC9-D5B246611797}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteGamingSystem.Sample.Api", "RemoteGamingSystem.Sample.Api.csproj", "{F9FD0D8F-051C-404B-BFC9-D5B246611797}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

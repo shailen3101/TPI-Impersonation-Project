@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using RemoteGamingSytem.Sample.Api.Models;
+using RemoteGamingSystem.Sample.Api.Models;
 using Jil;
 
 
-namespace RemoteGamingSytem.Sample.Api
+namespace RemoteGamingSystem.Sample.Api
 {
   public class Processing
   {
