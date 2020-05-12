@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using RemoteGamingSytem.Sample.Api.AppConstants;
+using RemoteGamingSystem.Sample.Api.AppConstants;
 
-namespace RemoteGamingSytem.Sample.Api.Models.Responses
+namespace RemoteGamingSystem.Sample.Api.Models.Responses
 {
   public class VerifyPlayerSessionResponse
   {
@@ -44,7 +44,7 @@ namespace RemoteGamingSytem.Sample.Api.Models.Responses
     public string PreferredName { get; set; }
 
     [StringLength(ApplicationConstants.Date)]
-    public string birthDate { get; set; }
+    public string BirthDate { get; set; }
 
    
     //public GenderTypes? genderType { get; set; }

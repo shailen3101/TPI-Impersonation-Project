@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\repos\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSytem.Sample.Api.csproj": {}
+    "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSytem.Sample.Api.csproj": {}
   },
   "projects": {
-    "C:\\dev\\repos\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSytem.Sample.Api.csproj": {
+    "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSytem.Sample.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\repos\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSytem.Sample.Api.csproj",
+        "projectUniqueName": "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSytem.Sample.Api.csproj",
         "projectName": "RemoteGamingSytem.Sample.Api",
-        "projectPath": "C:\\dev\\repos\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSytem.Sample.Api.csproj",
-        "packagesPath": "C:\\Users\\shailenn\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\repos\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\obj\\",
+        "projectPath": "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\RemoteGamingSytem.Sample.Api.csproj",
+        "packagesPath": "C:\\Users\\shanel\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TPI-Impersonation-Project\\server\\RemoteGamingSytem.Sample.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shailenn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shanel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Derivco/_packaging/LibGet@Local/nuget/v3/index.json": {}
+          "http://nugetlib": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

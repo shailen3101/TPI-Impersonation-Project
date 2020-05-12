@@ -6,13 +6,13 @@ using Jil;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using RemoteGamingSytem.Sample.Api.Models;
+using RemoteGamingSystem.Sample.Api.Models;
 
-namespace RemoteGamingSytem.Sample.Api.Controllers
+namespace RemoteGamingSystem.Sample.Api.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]
-  public class RGSController : ControllerBase
+  public class RgsController : ControllerBase
   {
     // GET: api/RGS
     [HttpGet]

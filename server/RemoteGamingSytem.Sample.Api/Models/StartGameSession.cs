@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using RemoteGamingSytem.Sample.Api.AppConstants;
+using RemoteGamingSystem.Sample.Api.AppConstants;
 
-namespace RemoteGamingSytem.Sample.Api.Models
+namespace RemoteGamingSystem.Sample.Api.Models
 {
   public class StartGameSession
   {

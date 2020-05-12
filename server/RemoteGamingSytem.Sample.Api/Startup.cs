@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace RemoteGamingSytem.Sample.Api
+namespace RemoteGamingSystem.Sample.Api
 {
   public class Startup
   {

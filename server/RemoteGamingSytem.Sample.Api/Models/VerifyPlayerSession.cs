@@ -1,4 +1,4 @@
-﻿using RemoteGamingSytem.Sample.Api.AppConstants;
+﻿using RemoteGamingSystem.Sample.Api.AppConstants;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace RemoteGamingSytem.Sample.Api.Models
+namespace RemoteGamingSystem.Sample.Api.Models
 {
   public class VerifyPlayerSession
   {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using RemoteGamingSytem.Sample.Api.Models;
+using RemoteGamingSystem.Sample.Api.Models;
 
-namespace RemoteGamingSytem.Sample.Api.ViewModel
+namespace RemoteGamingSystem.Sample.Api.Models
 {
   public class Methods
   {
