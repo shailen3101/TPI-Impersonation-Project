@@ -6,6 +6,7 @@ using Jil;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using RemoteGamingSystem.Sample.Api.Api;
 using RemoteGamingSystem.Sample.Api.Models;
 
 namespace RemoteGamingSystem.Sample.Api.Controllers
@@ -30,22 +31,9 @@ namespace RemoteGamingSystem.Sample.Api.Controllers
 
     // POST: api/RGS
     [HttpPost]
-    public VerifyPlayerSession Post([FromBody] VerifyPlayerSession request)
+    public BaseRequest Post([FromBody] BaseRequest request)
     {
-      var hello = 0; 
-      return request;
-    }
-
-    // PUT: api/RGS/5
-    [HttpPut("{id}")]
-    public void Put(int id, [FromBody] string value)
-    {
-    }
-
-    // DELETE: api/ApiWithActions/5
-    [HttpDelete("{id}")]
-    public void Delete(int id)
-    {
+      return new TpiApiCommunications(request).SendRequest();
     }
   }
 }
