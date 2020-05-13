@@ -10,7 +10,6 @@ namespace RemoteGamingSystem.Sample.Api.Models
 {
   public class VerifyPlayerSession
   {
-
     [Required]
     [StringLength(ApplicationConstants.BrandId)]
     public string BrandId { get; set; }

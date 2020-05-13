@@ -9,7 +9,6 @@ namespace RemoteGamingSystem.Sample.Api.Models.Responses
 {
   public class VerifyPlayerSessionResponse
   {
-
     [Required]
     [StringLength(ApplicationConstants.SecureToken)]
     public string SecureToken { get; set; }
