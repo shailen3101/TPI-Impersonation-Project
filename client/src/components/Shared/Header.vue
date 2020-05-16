@@ -7,17 +7,22 @@
 		>
 			<v-list-item>
 				<v-list-item-content>
-					<v-list-item-title class="title">
+					<v-list-item-title class="title blue--text">
 						TPI Commands
 					</v-list-item-title>
 				</v-list-item-content>
 			</v-list-item>
 			<v-divider></v-divider>
 			<v-list nav>
-				<v-list-item-group v-model="index" color="primary">
-					<v-list-item v-for="name in commandNames" :key="name" link>
+				<v-list-item-group v-model="name" color="primary">
+					<v-list-item
+						v-for="name in commandNames"
+						:key="name"
+						@click="navigateTo(name)"
+						link
+					>
 						<v-list-item-content>
-							<v-list-item-title>{{ name }}</v-list-item-title>
+							<v-list-item-title> {{ name }}</v-list-item-title>
 						</v-list-item-content>
 					</v-list-item>
 				</v-list-item-group>
@@ -29,9 +34,12 @@
 				@click.stop="homeLayout.model = !homeLayout.model"
 				class="blue--text text--lighten-2"
 			></v-app-bar-nav-icon>
-			<v-toolbar-title cols="12" class="blue--text"
-				>RGS Impersonation</v-toolbar-title
-			>
+
+			<v-toolbar-title cols="12" class="blue--text">
+				<router-link to="/" style="text-decoration: none">
+					RGS Impersonation
+				</router-link>
+			</v-toolbar-title>
 		</v-app-bar>
 	</div>
 </template>
@@ -41,6 +49,7 @@
 
 	export default {
 		data: () => ({
+			name: '',
 			commandNames: commandNames,
 			homeLayout: {
 				model: null,
@@ -48,6 +57,11 @@
 				clipped: true,
 			},
 		}),
+		methods: {
+			navigateTo(link) {
+				this.$router.push(`/commands/${link}`)
+			},
+		},
 		created() {
 			this.$vuetify.theme.dark = true
 		},

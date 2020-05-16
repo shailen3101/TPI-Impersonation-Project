@@ -1,12 +1,13 @@
 <template>
-  <div class="home"></div>
+	<div>
+		<h1>Welcome to RGS Client</h1>
+	</div>
 </template>
 
 <script>
-// @ is an alias to /src
-
-export default {
-  name: "Home",
-  components: {}
-};
+	export default {
+		created() {
+			console.log('Hello')
+		},
+	}
 </script>
