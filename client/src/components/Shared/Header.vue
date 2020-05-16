@@ -14,7 +14,7 @@
 			</v-list-item>
 			<v-divider></v-divider>
 			<v-list nav>
-				<v-list-item-group v-model="index" color="primary">
+				<v-list-item-group v-model="name" color="primary">
 					<v-list-item v-for="name in commandNames" :key="name" link>
 						<v-list-item-content>
 							<v-list-item-title>{{ name }}</v-list-item-title>
@@ -41,6 +41,7 @@
 
 	export default {
 		data: () => ({
+			name: '',
 			commandNames: commandNames,
 			homeLayout: {
 				model: null,

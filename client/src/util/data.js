@@ -2,7 +2,6 @@ export const commandNames = [
 	'TPI_verifyPlayerSession',
 	'TPI_playerSessionAck',
 	'TPI_startGameSession',
-	'TPI_gameSessionAck',
 	'TPI_startGameCycle',
 	'TPI_startGameCycleAck',
 	'TPI_moneyTransactions',
