@@ -59,7 +59,9 @@
 		}),
 		methods: {
 			navigateTo(link) {
-				this.$router.push(`/commands/${link}`)
+				//Checks the route path and if equal doesn't route to that location.
+				const path = `/commands/${link}`
+				if (this.$route.path !== path) this.$router.push(`/commands/${link}`)
 			},
 		},
 		created() {
