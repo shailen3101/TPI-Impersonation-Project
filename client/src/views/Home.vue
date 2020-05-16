@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1 style="color: white">Welcome to RGS Client</h1>
+		<h1>Welcome to RGS Client</h1>
 	</div>
 </template>
 

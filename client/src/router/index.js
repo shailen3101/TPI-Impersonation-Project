@@ -13,7 +13,7 @@ const routes = [
 		component: Home,
 	},
 	{
-		path: '/Tpi_verifyPlayerSession',
+		path: '/commands/Tpi_verifyPlayerSession',
 		name: 'Tpi_verifyPlayerSession',
 		component: Tpi_verifyPlayerSession,
 	},
