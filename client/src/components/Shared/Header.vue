@@ -49,7 +49,7 @@
 
 	export default {
 		data: () => ({
-			name: '',
+			name: '', // Used to keep track of what is select in the navbar
 			commandNames: commandNames,
 			homeLayout: {
 				model: null,
@@ -60,8 +60,8 @@
 		methods: {
 			navigateTo(link) {
 				//Checks the route path and if equal doesn't route to that location.
-				const path = `/commands/${link}`
-				if (this.$route.path !== path) this.$router.push(`/commands/${link}`)
+				const path = `/command/${link}`
+				if (this.$route.path !== path) this.$router.push(`/command/${link}`)
 			},
 		},
 		created() {
