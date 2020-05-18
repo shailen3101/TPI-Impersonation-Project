@@ -1,5 +1,5 @@
 <template>
-	<v-tabs :value="tabSelected" class="d-flex justify-end mb-6">
+	<v-tabs :value="tabSelected" class="d-flex justify-center mb-6">
 		<v-tab @click="changedTab('details')">Details</v-tab>
 		<v-tab @click="changedTab('request')">Send Request</v-tab>
 	</v-tabs>
