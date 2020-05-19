@@ -1,8 +1,21 @@
 export const commandNames = [
-	'TPI_verifyPlayerSession',
-	'TPI_startGameSession',
-	'TPI_startGameCycle',
-	'TPI_moneyTransactions',
-	'TPI_endGameCycle',
-	'TPI_endGameSession',
+	{
+		name: 'TPI_verifyPlayerSession',
+		commandInfo: {
+			commandDescrition: '',
+			paramterInfo: [],
+		},
+		paramaters: [
+			'brandId',
+			'skinId',
+			'gameId',
+			'channelType',
+			'presentType',
+			'secureToken',
+			'playerId',
+			'accountId',
+			'localeCode',
+			'currencyCode',
+		],
+	},
 ]

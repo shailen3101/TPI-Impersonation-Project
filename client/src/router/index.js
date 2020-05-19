@@ -11,8 +11,8 @@ const routes = [
 		component: Home,
 	},
 	{
-		path: '/command/Tpi_verifyPlayerSession',
-		name: 'Tpi_verifyPlayerSession',
+		path: '/command/:command',
+		name: 'Command',
 		component: () =>
 			import(
 				/* webpackChunkName: "group-command" */ '../views/Commands/Tpi_verifyPlayerSession.vue'

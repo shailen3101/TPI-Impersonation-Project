@@ -9,9 +9,14 @@
       <v-divider></v-divider>
       <v-list nav>
         <v-list-item-group v-model="name" color="primary">
-          <v-list-item v-for="name in commandNames" :key="name" @click="navigateTo(name)" link>
+          <v-list-item
+            v-for="command in commandNames"
+            :key="command.name"
+            @click="navigateTo(command.name)"
+            link
+          >
             <v-list-item-content>
-              <v-list-item-title>{{ name }}</v-list-item-title>
+              <v-list-item-title>{{ command.name }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </v-list-item-group>
@@ -25,7 +30,7 @@
       ></v-app-bar-nav-icon>
 
       <v-toolbar-title cols="12" class="blue--text">
-        <router-link to="/" style="text-decoration: none">RGS Impersonation</router-link>
+        <router-link to="/" style="text-decoration: none" exact>RGS Impersonation</router-link>
       </v-toolbar-title>
     </v-app-bar>
   </div>
@@ -47,7 +52,8 @@ export default {
     navigateTo(link) {
       //Checks the route path and if equal doesn't route to that location.
       const path = `/command/${link}`;
-      if (this.$route.path !== path) this.$router.push(`/command/${link}`);
+      if (this.$route.path !== path)
+        this.$router.push({ name: "Command", params: { command: link } });
     }
   },
   created() {
