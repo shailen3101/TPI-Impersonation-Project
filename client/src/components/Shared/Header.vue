@@ -10,7 +10,7 @@
       <v-list nav>
         <v-list-item-group v-model="name" color="primary">
           <v-list-item
-            v-for="command in commandNames"
+            v-for="command in commands"
             :key="command.name"
             @click="navigateTo(command.name)"
             link
@@ -37,12 +37,12 @@
 </template>
 
 <script>
-import { commandNames } from "../../util/data.js";
+import { commands } from "../../util/data";
 
 export default {
   data: () => ({
     name: "", // Used to keep track of what is select in the navbar
-    commandNames: commandNames,
+    commands: commands,
     homeLayout: {
       model: null,
       clipped: true

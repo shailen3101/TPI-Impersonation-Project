@@ -1,8 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import { commands } from '../util/data'
 
 Vue.use(VueRouter)
+
+function filterCommandByUrl(route) {
+	const urlCommand = route.params.command
+	return { urlCommandObject: commands.find((c) => c.name === urlCommand) }
+}
 
 const routes = [
 	{
@@ -17,6 +23,7 @@ const routes = [
 			import(
 				/* webpackChunkName: "group-command" */ '../views/Commands/Tpi_verifyPlayerSession.vue'
 			),
+		props: filterCommandByUrl,
 	},
 ]
 
