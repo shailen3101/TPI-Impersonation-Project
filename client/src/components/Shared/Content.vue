@@ -1,9 +1,9 @@
 <template>
-	<v-content>
-		<router-view></router-view>
-	</v-content>
+  <v-content>
+    <router-view></router-view>
+  </v-content>
 </template>
 
 <script>
-	export default {}
+export default {};
 </script>
