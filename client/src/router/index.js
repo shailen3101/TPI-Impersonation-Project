@@ -25,6 +25,10 @@ const routes = [
 			),
 		props: filterCommandByUrl,
 	},
+	{
+		path: '*',
+		redirect: { name: 'Home' },
+	},
 ]
 
 const router = new VueRouter({

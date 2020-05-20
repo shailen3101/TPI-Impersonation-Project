@@ -30,7 +30,7 @@
       ></v-app-bar-nav-icon>
 
       <v-toolbar-title cols="12" class="blue--text">
-        <router-link to="/" style="text-decoration: none" exact>RGS Impersonation</router-link>
+        <router-link name="Home" style="text-decoration: none" exact>RGS Impersonation</router-link>
       </v-toolbar-title>
     </v-app-bar>
   </div>
