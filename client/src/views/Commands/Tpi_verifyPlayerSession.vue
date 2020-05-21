@@ -16,7 +16,10 @@ export default {
   },
   components: {
     AppTab,
-    "app-request": () => import("../../components/MethodContent/Request.vue") // overkill
+    "app-request": () =>
+      import(
+        /* webpackChunkName: "group-command" */ "../../components/MethodContent/Request.vue"
+      )
   },
   data: () => ({
     currentCommand: "",
