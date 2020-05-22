@@ -9,17 +9,11 @@
 import AppTab from "../../components/MethodContent/Tab.vue";
 
 export default {
-  props: {
-    urlCommandObject: {
-      type: Object
-    }
-  },
   components: {
     AppTab,
     "app-request": () => import("../../components/MethodContent/Request.vue") // overkill
   },
   data: () => ({
-    currentCommand: "",
     selectedComponent: "app-request"
   }),
   methods: {
@@ -27,16 +21,6 @@ export default {
       if (tab === "request") this.selectedComponent = "app-request";
       else this.selectedComponent = "app-details";
     }
-  },
-  watch: {
-    urlCommandObject() {
-      this.currentCommand = { ...this.urlCommandObject };
-      console.log(this.currentCommand);
-    }
-  },
-  created() {
-    this.currentCommand = { ...this.urlCommandObject };
-    console.log(this.currentCommand);
   }
 };
 </script>
