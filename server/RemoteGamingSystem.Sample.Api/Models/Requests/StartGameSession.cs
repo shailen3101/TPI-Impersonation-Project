@@ -21,10 +21,10 @@ namespace RemoteGamingSystem.Sample.Api.Models
     [StringLength(ApplicationConstants.UniqueId)]
     public string GameId { get; set; }
 
-    [Required]// check 
+    [Required]//Mobile/Desktop
     public string ChannelType { get; set; }
 
-    [Required]// check
+    [Required]//Html5
     public string PresentType { get; set; }
 
     [Required]
@@ -49,9 +49,12 @@ namespace RemoteGamingSystem.Sample.Api.Models
 
     [Required]
     [StringLength(ApplicationConstants.GameSessionId)]
+    //Use GUID and provided by RGS
     public string GameSessionId { get; set; }
 
-    [Required]// check 
+    [Required]
+    //Identify possible gameTypes 
+    //Are the possible gameTypes the ones in the documentation
     public string GameType { get; set; }
 
     [Required]

@@ -45,10 +45,12 @@ namespace RemoteGamingSystem.Sample.Api.Models.Responses
     [StringLength(ApplicationConstants.Date)]
     public string BirthDate { get; set; }
 
-   
-    //public GenderTypes? genderType { get; set; }
+    public IEnumerable<BalanceArray> BalanceArray { get; set; }
+  
+   //Identify possible gender types
+ 
+   //public GenderTypes? genderType { get; set; }
 
-   
-    //public AccountBalance accountBalance { get; set; }
-  }
+   //public AccountBalance accountBalance { get; set; }
+    }
 }
