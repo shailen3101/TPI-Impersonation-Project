@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\repos\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj": {}
+    "C:\\Users\\jodiep\\Documents\\Jodie\\DEV\\(3) GRADPROJ\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj": {}
   },
   "projects": {
-    "C:\\dev\\repos\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj": {
+    "C:\\Users\\jodiep\\Documents\\Jodie\\DEV\\(3) GRADPROJ\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\repos\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj",
+        "projectUniqueName": "C:\\Users\\jodiep\\Documents\\Jodie\\DEV\\(3) GRADPROJ\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj",
         "projectName": "RemoteGamingSystem.Sample.Api",
-        "projectPath": "C:\\dev\\repos\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj",
-        "packagesPath": "C:\\Users\\shailenn\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\repos\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\obj\\",
+        "projectPath": "C:\\Users\\jodiep\\Documents\\Jodie\\DEV\\(3) GRADPROJ\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\RemoteGamingSystem.Sample.Api.csproj",
+        "packagesPath": "C:\\Users\\jodiep\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jodiep\\Documents\\Jodie\\DEV\\(3) GRADPROJ\\TPI-Impersonation-Project\\server\\RemoteGamingSystem.Sample.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shailenn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jodiep\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Derivco/_packaging/LibGet@Local/nuget/v3/index.json": {}
+          "C:\\Users\\jodiep\\Documents\\Jodie\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
