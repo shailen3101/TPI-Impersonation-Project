@@ -29,7 +29,7 @@ export const commands = [
 		paramaters: { secureToken: '', playerId: '', accountId: '', brandId: '' },
 	},
 	{
-		name: 'TPI_startGameSession ',
+		name: 'TPI_startGameSession',
 		commandInfo: {
 			commandDescrition:
 				'This request is sent by the RGS to notify the iGP that a new Game Session has started for the player.',
@@ -46,14 +46,14 @@ export const commands = [
 			accountId: '',
 			localeCode: '',
 			currencyCode: '',
-			gameSessionId: 'f002e436-ce67-4f76-a41f-ee2b65c89e24',
-			gameType: 'other',
-			mfgCode: 'ABC',
-			themeId: 'default theme',
-			paytableId: 'defaultPaytable',
-			releaseNum: '1.0',
-			betConfigId: 'defaultBetConfig',
-			jurisdictionCode: 'GB-ENG',
+			gameSessionId: '',
+			gameType: '',
+			mfgCode: '',
+			themeId: '',
+			paytableId: '',
+			releaseNum: '',
+			betConfigId: '',
+			jurisdictionCode: '',
 		},
 	},
 	{

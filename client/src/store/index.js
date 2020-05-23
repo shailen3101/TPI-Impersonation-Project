@@ -6,9 +6,6 @@ import CommandModule from './modules/command'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-	state: {},
-	mutations: {},
-	actions: {},
 	modules: {
 		CommandModule,
 	},
