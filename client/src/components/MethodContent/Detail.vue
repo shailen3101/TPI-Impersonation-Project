@@ -3,18 +3,14 @@
 		<v-col cols="12">
 			<v-card>
 				<v-card-title class="green--text">{{ commandInfo.name }}</v-card-title>
-				<v-card-subtitle class="black--text"
-					>Enter the JSON and hit send to get a Response
+				<v-card-subtitle class="black--text">
+					<strong>Description: </strong
+					>{{ commandInfo.commandInfo.commandDescrition }}
 				</v-card-subtitle>
-				<v-row align="center" justify="center">
-					<v-col cols="10">
-						<app-json-form :paramaters="commandInfo.paramaters" />
-					</v-col>
-				</v-row>
+				<v-row align="center" justify="center"> </v-row>
 				<v-card-actions>
-					<v-btn color="orange">Details</v-btn>
 					<v-spacer></v-spacer>
-					<v-btn color="blue">Send Request</v-btn>
+					<v-btn color="blue">Try it Out</v-btn>
 				</v-card-actions>
 			</v-card>
 		</v-col>
@@ -22,15 +18,10 @@
 </template>
 
 <script>
-	import AppJsonForm from './JsonForm.vue'
-
 	export default {
 		data: () => ({
 			commandInfo: {},
 		}),
-		components: {
-			AppJsonForm,
-		},
 		watch: {
 			$route() {
 				this.commandInfo = {

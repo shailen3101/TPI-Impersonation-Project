@@ -1,6 +1,6 @@
 <template>
 	<v-jsoneditor
-		v-model="json"
+		v-model="paramaters"
 		:options="options"
 		:plus="false"
 		height="400px"
@@ -14,13 +14,19 @@
 
 	export default {
 		name: 'app',
+		props: {
+			paramaters: {
+				type: Object,
+				required: true,
+			},
+		},
 		components: {
 			VJsoneditor,
 		},
 		data() {
 			return {
-				json: {
-					hello: 'vue',
+				options: {
+					mode: 'code',
 				},
 			}
 		},
